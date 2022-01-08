@@ -20,23 +20,24 @@ lint   :; yarn run lint
 estimate :; ./scripts/estimate-gas.sh ${contract}
 size   :; ./scripts/contract-size.sh ${contract}
 
-# Deployment helpers
-deploy-counter :; @./scripts/deploy-counter.sh
-deploy-vrf-consumer :; @./scripts/deploy-vrf-consumer.sh
-deploy-price-feed-consumer :; @./scripts/deploy-price-feed-consumer.sh
+# Deployment helper
+deploy :; ./scripts/deploy.sh
 
 # TODO
-# # mainnet
-# deploy-mainnet: export ETH_RPC_URL = $(call network,mainnet)
-# deploy-mainnet: check-api-key deploy
+# mainnet
+deploy-mainnet: export ETH_RPC_URL = $(call network,mainnet)
+deploy-mainnet: export NETWORK=mainnet
+deploy-mainnet: check-api-key deploy
 
-# # kovan
-# deploy-kovan: export ETH_RPC_URL = $(call network,kovan)
-# deploy-kovan: check-api-key deploy
+# kovan
+deploy-kovan: export ETH_RPC_URL = $(call network,kovan)
+deploy-kovan: export NETWORK=kovan
+deploy-kovan: check-api-key deploy
 
-# # rinkeby
-# deploy-rinkeby: export ETH_RPC_URL = $(call network,rinkeby)
-# deploy-rinkeby: check-api-key deploy
+# rinkeby
+deploy-rinkeby: export ETH_RPC_URL = $(call network,rinkeby)
+deploy-rinkeby: export NETWORK=rinkeby
+deploy-rinkeby: check-api-key deploy
 
 check-api-key:
 ifndef ALCHEMY_API_KEY
