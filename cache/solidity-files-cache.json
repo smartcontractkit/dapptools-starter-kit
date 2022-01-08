@@ -1,0 +1,868 @@
+{
+  "_format": "ethers-rs-sol-cache-1",
+  "files": {
+    "/Users/patrick/code/dapptools-starter-kit/lib/chainlink-brownie-contracts/contracts/src/v0.8/VRFConsumerBase.sol": {
+      "lastModificationDate": 1641588978575,
+      "contentHash": "a70ea296de2000548ba2211a166432fe",
+      "sourceName": "lib/chainlink-brownie-contracts/contracts/src/v0.8/VRFConsumerBase.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "./interfaces/LinkTokenInterface.sol",
+        "./VRFRequestIDBase.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "VRFConsumerBase"
+      ]
+    },
+    "/Users/patrick/code/dapptools-starter-kit/lib/chainlink-brownie-contracts/contracts/src/v0.8/VRFRequestIDBase.sol": {
+      "lastModificationDate": 1641588978575,
+      "contentHash": "e7fc1c36cb6d9f4b7d64c59dfd2c6211",
+      "sourceName": "lib/chainlink-brownie-contracts/contracts/src/v0.8/VRFRequestIDBase.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "VRFRequestIDBase"
+      ]
+    },
+    "/Users/patrick/code/dapptools-starter-kit/lib/chainlink-brownie-contracts/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol": {
+      "lastModificationDate": 1641588978592,
+      "contentHash": "611f626b2447ccff9ba5332460fd217f",
+      "sourceName": "lib/chainlink-brownie-contracts/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "AggregatorV3Interface"
+      ]
+    },
+    "/Users/patrick/code/dapptools-starter-kit/lib/chainlink-brownie-contracts/contracts/src/v0.8/interfaces/KeeperCompatibleInterface.sol": {
+      "lastModificationDate": 1641588978593,
+      "contentHash": "4e3336b7d753cc2ccc38a7f8868b2345",
+      "sourceName": "lib/chainlink-brownie-contracts/contracts/src/v0.8/interfaces/KeeperCompatibleInterface.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "KeeperCompatibleInterface"
+      ]
+    },
+    "/Users/patrick/code/dapptools-starter-kit/lib/chainlink-brownie-contracts/contracts/src/v0.8/interfaces/LinkTokenInterface.sol": {
+      "lastModificationDate": 1641588978593,
+      "contentHash": "da5a0c3bd86c896f6a407f909c57edf3",
+      "sourceName": "lib/chainlink-brownie-contracts/contracts/src/v0.8/interfaces/LinkTokenInterface.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "LinkTokenInterface"
+      ]
+    },
+    "/Users/patrick/code/dapptools-starter-kit/lib/chainlink-brownie-contracts/contracts/src/v0.8/mocks/VRFCoordinatorMock.sol": {
+      "lastModificationDate": 1641591929791,
+      "contentHash": "01bc23b7135f28c247bc4628ad7d0f9b",
+      "sourceName": "lib/chainlink-brownie-contracts/contracts/src/v0.8/mocks/VRFCoordinatorMock.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "../interfaces/LinkTokenInterface.sol",
+        "../VRFConsumerBase.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "VRFCoordinatorMock"
+      ]
+    },
+    "/Users/patrick/code/dapptools-starter-kit/lib/ds-test/src/test.sol": {
+      "lastModificationDate": 1641585367346,
+      "contentHash": "5d45a46528eaf8a26f0a8d93669f3148",
+      "sourceName": "lib/ds-test/src/test.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.23"
+      ],
+      "artifacts": [
+        "DSTest"
+      ]
+    },
+    "/Users/patrick/code/dapptools-starter-kit/lib/openzeppelin-contracts/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1641585367400,
+      "contentHash": "4fe56b59ced59d87df6b796758f62895",
+      "sourceName": "lib/openzeppelin-contracts/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/Users/patrick/code/dapptools-starter-kit/lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1641585367388,
+      "contentHash": "2cd550cedf51b8d294607dad5023d717",
+      "sourceName": "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "./extensions/IERC20Metadata.sol",
+        "../../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/Users/patrick/code/dapptools-starter-kit/lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1641585367387,
+      "contentHash": "0eac3e1a83ee62326ca007811285b274",
+      "sourceName": "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/patrick/code/dapptools-starter-kit/lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
+      "lastModificationDate": 1641585367389,
+      "contentHash": "aa1be06992a99bb7393b26a6af3c4dfb",
+      "sourceName": "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "../IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Metadata"
+      ]
+    },
+    "/Users/patrick/code/dapptools-starter-kit/lib/openzeppelin-contracts/contracts/utils/Context.sol": {
+      "lastModificationDate": 1641585367407,
+      "contentHash": "851485d5b925529b1a2f34a0be077891",
+      "sourceName": "lib/openzeppelin-contracts/contracts/utils/Context.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/Users/patrick/code/dapptools-starter-kit/src/Counter.sol": {
+      "lastModificationDate": 1641594650306,
+      "contentHash": "bc18d78deaabc32ce25b0409147345f7",
+      "sourceName": "src/Counter.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "@chainlink/contracts/src/v0.8/interfaces/KeeperCompatibleInterface.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Counter"
+      ]
+    },
+    "/Users/patrick/code/dapptools-starter-kit/src/Greeter.sol": {
+      "lastModificationDate": 1641596868910,
+      "contentHash": "fbd6847f9bbbda7ec199bb5f78f37800",
+      "sourceName": "src/Greeter.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Errors",
+        "Greeter"
+      ]
+    },
+    "/Users/patrick/code/dapptools-starter-kit/src/PriceFeedConsumer.sol": {
+      "lastModificationDate": 1641589081796,
+      "contentHash": "a7b5a416fc6d75a7dc88ab4983db55c5",
+      "sourceName": "src/PriceFeedConsumer.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "PriceFeedConsumer"
+      ]
+    },
+    "/Users/patrick/code/dapptools-starter-kit/src/VRFConsumer.sol": {
+      "lastModificationDate": 1641589081795,
+      "contentHash": "3e999b923e316a4514ac224a6b60d52a",
+      "sourceName": "src/VRFConsumer.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "@chainlink/contracts/src/v0.8/VRFConsumerBase.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "VRFConsumer"
+      ]
+    },
+    "/Users/patrick/code/dapptools-starter-kit/src/test/CounterTest.sol": {
+      "lastModificationDate": 1641595462462,
+      "contentHash": "a8b849e027cf08128b2fd9f8ed8e5669",
+      "sourceName": "src/test/CounterTest.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "../Counter.sol",
+        "ds-test/test.sol",
+        "./utils/Hevm.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CounterTest"
+      ]
+    },
+    "/Users/patrick/code/dapptools-starter-kit/src/test/MockVRFOracle.sol": {
+      "lastModificationDate": 1641596523159,
+      "contentHash": "70a25729a7f43d3db2675b94283e159c",
+      "sourceName": "src/test/MockVRFOracle.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "../VRFConsumer.sol",
+        "./mocks/MockVRFCoordinator.sol",
+        "./mocks/LinkToken.sol",
+        "ds-test/test.sol",
+        "./utils/MockVRFOracle.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "VRFConsumerTest"
+      ]
+    },
+    "/Users/patrick/code/dapptools-starter-kit/src/test/PriceFeedConsumerTest.sol": {
+      "lastModificationDate": 1641593920018,
+      "contentHash": "fe652e8751c9f474018c1d59e742286e",
+      "sourceName": "src/test/PriceFeedConsumerTest.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "../PriceFeedConsumer.sol",
+        "./mocks/MockV3Aggregator.sol",
+        "ds-test/test.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "PriceFeedConsumerTest"
+      ]
+    },
+    "/Users/patrick/code/dapptools-starter-kit/src/test/mocks/LinkToken.sol": {
+      "lastModificationDate": 1641591943405,
+      "contentHash": "4a0638030c6f36a11a46ce8d974e90cc",
+      "sourceName": "src/test/mocks/LinkToken.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC677Receiver",
+        "LinkToken"
+      ]
+    },
+    "/Users/patrick/code/dapptools-starter-kit/src/test/mocks/MockV3Aggregator.sol": {
+      "lastModificationDate": 1641592911908,
+      "contentHash": "01b5280f529330960de8dd7eba0ffdc4",
+      "sourceName": "src/test/mocks/MockV3Aggregator.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MockV3Aggregator"
+      ]
+    },
+    "/Users/patrick/code/dapptools-starter-kit/src/test/mocks/MockVRFCoordinator.sol": {
+      "lastModificationDate": 1641595955489,
+      "contentHash": "c7f5336560f9e15b0c9f8bbf7e2360b1",
+      "sourceName": "src/test/mocks/MockVRFCoordinator.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "@chainlink/contracts/src/v0.8/mocks/VRFCoordinatorMock.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MockVRFCoordinator"
+      ]
+    },
+    "/Users/patrick/code/dapptools-starter-kit/src/test/utils/Hevm.sol": {
+      "lastModificationDate": 1641585368794,
+      "contentHash": "beabdd41ae69de70236f66205d5b63bf",
+      "sourceName": "src/test/utils/Hevm.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Hevm"
+      ]
+    },
+    "/Users/patrick/code/dapptools-starter-kit/src/test/utils/MockVRFOracle.sol": {
+      "lastModificationDate": 1641596526856,
+      "contentHash": "f9f36450c92fb09ad4fe2becccb0c4d3",
+      "sourceName": "src/test/utils/MockVRFOracle.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "ds-test/test.sol",
+        "../../VRFConsumer.sol",
+        "../mocks/MockVRFCoordinator.sol",
+        "./Hevm.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MockVRFOracle"
+      ]
+    }
+  }
+}

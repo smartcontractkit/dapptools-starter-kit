@@ -3,6 +3,8 @@
 ## This is a working draft based on [dapptools-template](https://github.com/gakonst/dapptools-template)
 See the [#TODO](#todo) list at the bottom for a list of things to complete. 
 
+** Many of the [forge & foundry](https://github.com/gakonst/foundry/tree/master/forge) commands are also compatible here! **
+
 Implementation of the following 3 Chainlink features using the [DappTools](https://dapp.tools/) development environment:
  - [Chainlink Price Feeds](https://docs.chain.link/docs/using-chainlink-reference-contracts)
  - [Chainlink Keepers](https://docs.chain.link/docs/chainlink-keepers/introduction/)
