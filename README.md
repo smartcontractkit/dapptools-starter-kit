@@ -25,7 +25,7 @@ make # This installs the project's dependencies.
 make test
 ```
 
-All the commands from [dapptools] work with this repo, like `dapp build`, `ethsign`, and `dapp test`. 
+All the commands from [dapptools](https://dapp.tools/) work with this repo, like `dapp build`, `ethsign`, and `dapp test`. 
 
 # Deploying
 
