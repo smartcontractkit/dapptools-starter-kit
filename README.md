@@ -1,4 +1,18 @@
-# <h1 align="center"> DappTools Starter Kit </h1>
+#  DappTools Starter Kit
+
+- [DappTools Starter Kit](#dapptools-starter-kit)
+  - [This is a working draft based on dapptools-template](#this-is-a-working-draft-based-on-dapptools-template)
+- [Installation](#installation)
+  - [Requirements](#requirements)
+  - [Getting Started](#getting-started)
+- [Deploying](#deploying)
+  - [Setup your Account/ethsign](#setup-your-accountethsign)
+  - [Setup your .env file](#setup-your-env-file)
+  - [Testnet & Mainnet Deployment](#testnet--mainnet-deployment)
+    - [Local Testnet](#local-testnet)
+    - [Verifying on Etherscan](#verifying-on-etherscan)
+- [Resources](#resources)
+- [TODO](#todo)
 
 ## This is a working draft based on [dapptools-template](https://github.com/gakonst/dapptools-template)
 See the [#TODO](#todo) list at the bottom for a list of things to complete. 
@@ -101,17 +115,18 @@ Check out the [dapp documentation](https://github.com/dapphub/dapptools/tree/mas
 verifying contracts work with DappTools.
 
 
-## DappTools Resources
+# Resources
 
 * [DappTools](https://dapp.tools)
     * [Hevm Docs](https://github.com/dapphub/dapptools/blob/master/src/hevm/README.md)
     * [Dapp Docs](https://github.com/dapphub/dapptools/tree/master/src/dapp/README.md)
     * [Seth Docs](https://github.com/dapphub/dapptools/tree/master/src/seth/README.md)
 * [DappTools Overview](https://www.youtube.com/watch?v=lPinWgaNceM)
+* [Chainlink](https://docs.chain.link)
 * [Awesome-DappTools](https://github.com/rajivpo/awesome-dapptools)
 
 
-## TODO 
+# TODO 
 [x] Enable network & contract choice from the command line
     ie: make deploy-rinkeby contract=counter 
 
