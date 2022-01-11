@@ -8,7 +8,12 @@
 </p>
 <br/>
 
+# THIS REPO IS NOT FINISHED!!!
+# Still in draft mode
+
 - [Foundry Starter Kit](#foundry-starter-kit)
+- [THIS REPO IS NOT FINISHED!!!](#this-repo-is-not-finished)
+- [Still in draft mode](#still-in-draft-mode)
   - [This is a working draft based on dapptools-template](#this-is-a-working-draft-based-on-dapptools-template)
 - [Installation](#installation)
   - [Requirements](#requirements)
@@ -26,8 +31,6 @@
 ## This is a working draft based on [dapptools-template](https://github.com/gakonst/dapptools-template)
 See the [#TODO](#todo) list at the bottom for a list of things to complete. 
 
-** Many of the [forge & foundry](https://github.com/gakonst/foundry/tree/master/forge) commands are also compatible here! **
-
 Implementation of the following 3 Chainlink features using the [foundry](https://github.com/gakonst/foundry) development environment:
  - [Chainlink Price Feeds](https://docs.chain.link/docs/using-chainlink-reference-contracts)
  - [Chainlink VRF](https://docs.chain.link/docs/chainlink-vrf/)
@@ -43,7 +46,7 @@ Implementation of the following 3 Chainlink features using the [foundry](https:/
 ## Getting Started 
 
 ```sh
-git clone https://github.com/smartcontractkit/dapptools-starter-kit
+git clone git clone --single-branch --branch foundry https://github.com/smartcontractkit/dapptools-starter-kit
 cd dapptools-starter-kit
 make # This installs the project's dependencies.
 make test
@@ -57,10 +60,10 @@ make test
 or 
 
 ```
-dapp test
+forge test
 ```
 
-All the commands from [dapptools](https://dapp.tools/) work with this repo, like `dapp build`, `ethsign`, and `dapp test`. 
+All the commands from [forge](https://github.com/gakonst/foundry/tree/master/forge) work with this repo, like `forge build`, `ethsign`, and `forge test`. 
 
 # Deploying
 
