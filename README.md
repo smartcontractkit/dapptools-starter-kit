@@ -1,14 +1,14 @@
-#  DappTools Starter Kit
+#  Foundry Starter Kit
 
 <br/>
 <p align="center">
 <a href="https://chain.link" target="_blank">
-<img src="./img/chainlink-dapptools.png" width="225" alt="Chainlink DappTools logo">
+<img src="./img/chainlink-foundry.png" width="225" alt="Chainlink Foundry logo">
 </a>
 </p>
 <br/>
 
-- [DappTools Starter Kit](#dapptools-starter-kit)
+- [Foundry Starter Kit](#foundry-starter-kit)
   - [This is a working draft based on dapptools-template](#this-is-a-working-draft-based-on-dapptools-template)
 - [Installation](#installation)
   - [Requirements](#requirements)
@@ -28,7 +28,7 @@ See the [#TODO](#todo) list at the bottom for a list of things to complete.
 
 ** Many of the [forge & foundry](https://github.com/gakonst/foundry/tree/master/forge) commands are also compatible here! **
 
-Implementation of the following 3 Chainlink features using the [DappTools](https://dapp.tools/) development environment:
+Implementation of the following 3 Chainlink features using the [foundry](https://github.com/gakonst/foundry) development environment:
  - [Chainlink Price Feeds](https://docs.chain.link/docs/using-chainlink-reference-contracts)
  - [Chainlink VRF](https://docs.chain.link/docs/chainlink-vrf/)
  - [Chainlink Keepers](https://docs.chain.link/docs/chainlink-keepers/introduction/)
@@ -37,7 +37,8 @@ Implementation of the following 3 Chainlink features using the [DappTools](https
 
 ## Requirements
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-- [DappTools](https://github.com/dapphub/dapptools#installation)
+- [Rust and Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html)
+- [Foundry](https://github.com/gakonst/foundry)
 
 ## Getting Started 
 
