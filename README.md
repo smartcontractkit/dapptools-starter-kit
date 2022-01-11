@@ -13,6 +13,7 @@
 - [Installation](#installation)
   - [Requirements](#requirements)
   - [Getting Started](#getting-started)
+  - [Testing](#testing)
 - [Deploying](#deploying)
   - [Setup your Account/ethsign](#setup-your-accountethsign)
   - [Setup your .env file](#setup-your-env-file)
@@ -45,6 +46,17 @@ git clone https://github.com/smartcontractkit/dapptools-starter-kit
 cd dapptools-starter-kit
 make # This installs the project's dependencies.
 make test
+```
+
+## Testing 
+
+```
+make test 
+```
+or 
+
+```
+dapp test
 ```
 
 All the commands from [dapptools](https://dapp.tools/) work with this repo, like `dapp build`, `ethsign`, and `dapp test`. 
