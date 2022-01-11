@@ -1,5 +1,13 @@
 #  DappTools Starter Kit
 
+<br/>
+<p align="center">
+<a href="https://chain.link" target="_blank">
+<img src="./img/chainlink-dapptools.png" width="225" alt="Chainlink DappTools logo">
+</a>
+</p>
+<br/>
+
 - [DappTools Starter Kit](#dapptools-starter-kit)
   - [This is a working draft based on dapptools-template](#this-is-a-working-draft-based-on-dapptools-template)
 - [Installation](#installation)
