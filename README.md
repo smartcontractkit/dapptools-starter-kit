@@ -171,7 +171,7 @@ Where `100000000000000000` = 1 LINK
 Then, we could call the `getRandomNumber` function:
 
 ```
-ETH_RPC_URL=<YOUR_RPC_URL> ETH_FROM=<YOUR_FROM_ADDRESS seth send <VRF_CONSUMER_ADDRESS>  "getRandomNumber()"
+ETH_RPC_URL=<YOUR_RPC_URL> ETH_FROM=<YOUR_FROM_ADDRESS> seth send <VRF_CONSUMER_ADDRESS>  "getRandomNumber()"
 ```
 
 And after a slight delay, read the result:
