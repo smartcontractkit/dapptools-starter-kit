@@ -20,6 +20,7 @@
   - [Testnet & Mainnet Deployment](#testnet--mainnet-deployment)
     - [Local Testnet](#local-testnet)
     - [Verifying on Etherscan](#verifying-on-etherscan)
+- [Interacting with your contracts](#interacting-with-your-contracts)
 - [Resources](#resources)
 - [TODO](#todo)
 
@@ -73,7 +74,9 @@ ethsign import
 ```
 And you'll be prompted for your private key, and a password. You can get a private key from a wallet like [Metamask](https://metamask.io/). Once successful, add the address of the private key to your `.env` file under an `ETH_FROM` variable. See the `.env.example` file for an example. 
 
-See the [`Makefile`](./Makefile#25) for more context on how this works under the hood
+See the [`Makefile`](./Makefile#25) for more context on how this works under the hood.
+
+If you're going to deploy to a testnet, make sure you have testnet [ETH and LINK in your wallet](https://faucets.chain.link/)! 
 
 ## Setup your .env file
 
@@ -134,6 +137,50 @@ ETHERSCAN_API_KEY=123456765 dapp verify-contract ./src/Counter.sol:Counter 0x234
 Check out the [dapp documentation](https://github.com/dapphub/dapptools/tree/master/src/dapp#dapp-verify-contract) to see how
 verifying contracts work with DappTools.
 
+# Interacting with your contracts 
+
+To interact with our contracts, we use the `seth` command. Let's say we've deployed our `PriceFeedConsumer.sol` to kovan, and now we want to call the `getLatestPrice` function. How do we do this? 
+
+```
+ETH_RPC_URL=<YOUR_RPC_URL> seth call <YOUR_CONTRACT_ADDRESS> "getLatestPrice()"
+```
+
+For example:
+```
+ETH_RPC_URL=https://alchemy.io/adsfasdf seth call 0xd39F749195Ab1B4772fBB496EDAF56729ee36E55 "getLatestPrice()"
+```
+
+This will give us an output like `0x0000000000000000000000000000000000000000000000000000004c17b125c0` which is the hex of `326815000000`
+
+This is to call transactions (not spend gas). To change the state of the blockchain (spend gas) we'd use `seth send`. Let's say we have a `VRFConsumer` contract deployed, and we want to call `getRandomNumber`:
+
+First, we'd need to send our contract some LINK on the Kovan Chain: 
+
+```
+ETH_RPC_URL=<YOUR_RPC_URL> ETH_FROM=<YOUR_FROM_ADDRESS> seth send <LINK_TOKEN_ADDRESS> "transfer(address,uint256)" <VRF_CONSUMER_ADDRESS> 1000000000000000000
+```
+
+Like:
+
+```
+ETH_RPC_URL=https://alchemy.io/adfasdf ETH_FROM=0x12345 seth send 0xa36085F69e2889c224210F603D836748e7dC0088 "transfer(address,uint256)" 0xa74576956E24a8Fa768723Bd5284BcBE1Ea03adA 100000000000000000
+```
+
+Where `100000000000000000` = 1 LINK
+
+Then, we could call the `getRandomNumber` function:
+
+```
+ETH_RPC_URL=<YOUR_RPC_URL> ETH_FROM=<YOUR_FROM_ADDRESS seth send <VRF_CONSUMER_ADDRESS>  "getRandomNumber()"
+```
+
+And after a slight delay, read the result:
+
+```
+ETH_RPC_URL=<YOUR_RPC_URL> seth call <VRF_CONSUMER_ADDRESS> "randomResult()"
+```
+
+As you can see... it would be great to have these scripted in our `scripts` folder. If you think you want to contribute, please make a PR!
 
 # Resources
 
