@@ -32,12 +32,13 @@ contract VRFConsumerTest is DSTest {
     }
 
     function test_consumer_can_request_randomness() public {
-        linkToken.transfer(address(vrfConsumer), 100);
-        vrfConsumer.getRandomNumber();
+        linkToken.transfer(address(vrfConsumer), 1000000000000000000);
+        bytes32 requestId = vrfConsumer.getRandomNumber();
+        assertTrue(requestId != "0x");
     }
 
     function test_consumer_can_receive_random_number() public {
-        linkToken.transfer(address(vrfConsumer), 100);
+        linkToken.transfer(address(vrfConsumer), 1000000000000000000);
         bytes32 requestId = vrfConsumer.getRandomNumber();
         mockVRFOracle.callBackWithRandomness(
             requestId,

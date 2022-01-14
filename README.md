@@ -40,6 +40,8 @@ Implementation of the following 3 Chainlink features using the [DappTools](https
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - [DappTools](https://github.com/dapphub/dapptools#installation)
 
+And you probably already have `make` installed... but if not [try looking here.](https://askubuntu.com/questions/161104/how-do-i-install-make) 
+
 ## Getting Started 
 
 ```sh
