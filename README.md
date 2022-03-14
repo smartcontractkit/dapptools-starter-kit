@@ -123,7 +123,7 @@ Chainlink API contract:
 make deploy CONTRACT=APIConsumer
 ```
 
-You can change their deployment parameters in their respective `deploy` file in the `scripts` folder. All the constructor arguments are created in the `./src/helper-config.sh` folder. This is where you can assign different constructor arguments across networks.
+You can change their deployment parameters in their respective `deploy` file in the `scripts` folder. All the constructor arguments are created in the `./scripts/helper-config.sh` folder. This is where you can assign different constructor arguments across networks.
 
 ### Local Testnet
 
