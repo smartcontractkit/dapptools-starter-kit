@@ -10,7 +10,7 @@ set -eo pipefail
 
 # Deploy 
 # Contract will be counter unless overriden on the command line
-: ${CONTRACT:=Counter}
+: ${CONTRACT:=KeepersCounter}
 echo "Deploying $CONTRACT to $NETWORK with arguments: $arguments"
 Addr=$(deploy $CONTRACT $arguments)
 log "$CONTRACT deployed at:" $Addr

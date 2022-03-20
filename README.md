@@ -102,7 +102,7 @@ Set your `ETH_RPC_URL` or `ALCHEMY_API_KEY` in your `.env` file, then run one of
 Counters (Keeper Compatible Contract):
 
 ```bash
-make deploy CONTRACT=Counter
+make deploy CONTRACT=KeepersCounter
 ```
 
 Price Feed:
@@ -147,7 +147,7 @@ ETHERSCAN_API_KEY=<api-key> dapp verify-contract <contract_directory>/<contract>
 For example:
 
 ```
-ETHERSCAN_API_KEY=123456765 dapp verify-contract ./src/Counter.sol:Counter 0x23456534212536435424
+ETHERSCAN_API_KEY=123456765 dapp verify-contract ./src/KeepersCounter.sol:KeepersCounter 0x23456534212536435424
 ```
 
 Check out the [dapp documentation](https://github.com/dapphub/dapptools/tree/master/src/dapp#dapp-verify-contract) to see how
@@ -212,7 +212,7 @@ As you can see... it would be great to have these scripted in our `scripts` fold
 # TODO
 
 [x] Enable network & contract choice from the command line
-ie: make deploy-rinkeby contract=counter
+ie: make deploy-rinkeby contract=KeepersCounter
 
 [x] Add mockOracle for any API calls
 

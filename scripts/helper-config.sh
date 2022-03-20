@@ -39,7 +39,7 @@ then
     subId=1
 fi
 
-if [ "$CONTRACT" = "Counter" ]
+if [ "$CONTRACT" = "KeepersCounter" ]
 then 
     arguments=$interval
 elif [ "$CONTRACT" = "PriceFeedConsumer" ]
