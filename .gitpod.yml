@@ -1,0 +1,3 @@
+tasks:
+  - name: dAppTools
+    command: curl https://dapp.tools/install | sh && make

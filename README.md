@@ -8,6 +8,8 @@
 </p>
 <br/>
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/smartcontractkit/dapptools-starter-kit)
+
 - [DappTools Starter Kit](#dapptools-starter-kit)
 - [Installation](#installation)
   - [Requirements](#requirements)
