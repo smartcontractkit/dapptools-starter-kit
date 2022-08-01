@@ -1,3 +1,5 @@
+> Note: As [Dapptools has passed the torch to Foundry](https://github.com/dapphub/dapptools/pull/927/files) we recommend you check out the [foundry-starter-kit](https://github.com/smartcontractkit/foundry-starter-kit) instead. 
+
 # DappTools Starter Kit
 
 <br/>
